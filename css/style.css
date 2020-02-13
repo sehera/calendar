@@ -1,0 +1,159 @@
+body{
+  background-color: lightsteelblue;
+}
+
+h1{
+  font-weight: bold;
+  color:black;
+  font-family: "optima", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+h1:hover{
+  color: white;
+}
+
+#dates {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px,100px));
+grid-template-rows: repeat(auto-fill, minmax(40px, 1fr));
+  grid-gap: 90px;
+  row-gap:87px;
+  height: 500px;
+}
+
+
+.day {
+  background: #E7EAF5;
+  border: 3px solid;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: blue;
+  padding: 20px;
+  height: 60px;
+  width:60px;
+  font-family: "akzidenz-grotesk", sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.day1 {
+  background: #E7EAF5;
+  border: 3px solid;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: blue;
+  padding: 20px;
+  height: 60px;
+  width:60px;
+  font-family: "akzidenz-grotesk", sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.day14 {
+  background: #E7EAF5;
+  border: 3px solid;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: blue;
+  padding: 20px;
+  height: 60px;
+  width:60px;
+  font-family: "akzidenz-grotesk", sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.day17 {
+  background: #E7EAF5;
+  border: 3px solid;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: blue;
+  padding: 20px;
+  height: 60px;
+  width:60px;
+  font-family: "akzidenz-grotesk", sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+
+.day:hover{
+  background-color:  lightsteelblue;
+  border-color: white;
+  border-width: thick;
+  border-radius: 50%;
+  border-style: outset solid dotted dashed;
+}
+
+.day1:hover{
+  background-color:  lightsteelblue;
+  border-color: white;
+  border-width: thick;
+  border-radius: 50%;
+  border-style: outset solid dotted dashed;
+}
+
+.day14:hover{
+  background-color:  lightsteelblue;
+  border-color: white;
+  border-width: thick;
+  border-radius: 50%;
+  border-style: outset solid dotted dashed;
+}
+
+.day17:hover{
+  background-color:  lightsteelblue;
+  border-color: white;
+  border-width: thick;
+  border-radius: 50%;
+  border-style: outset solid dotted dashed;
+}
+
+h1::after{
+  content:"it's 2020 🤭 ";
+  font-size:18px;
+  background:white;
+  color:black;
+  font-weight:900px;
+}
+
+.day1::after{
+  content:"new month!";
+  font-size:10px;
+  background:white;
+  color:blue;
+  font-weight: 900;
+}
+
+.day14::after{
+  content:"some chocolate plis 🖤";
+  font-size:10px;
+  background:white;
+  color:blue;
+  font-weight: 900;
+}
+
+.day17::after{
+  content:"day off!";
+  font-size:10px;
+  background:white;
+  color:blue;
+  font-weight: 900;
+}
