@@ -1,0 +1,64 @@
+body{
+  background-color: thistle;
+}
+
+.content{
+position:relative;
+width: 1100px;
+height: 700px;
+}
+
+
+h2{
+  font-family: "akzidenz-grotesk", sans-serif;
+  position:fixed;
+  top:10%;
+  left:65%;
+  z-index: 2;
+  color: white;
+}
+
+h3{
+  font-family: "akzidenz-grotesk", sans-serif;
+  font-size: 20px;
+  position:fixed;
+  top:20%;
+  left:65%;
+  z-index: 2;
+  color: white;
+
+}
+
+
+.linkback{
+  position: absolute;
+  top:220%;
+  left:90%;
+  font-family: "akzidenz-grotesk", sans-serif;
+  font-size: 20px;
+  border-radius: 20%;
+  color: black;
+}
+
+a:link{
+  text-decoration: none;
+  font-size: 20px
+}
+
+div.image1{
+  position:absolute;
+  top:20%;
+  left:10%;
+}
+
+div.image2{
+  position:absolute;
+  top:100%;
+  left:10%;
+}
+
+div.image3{
+  position:absolute;
+  top:180%;
+  left:10%;
+}

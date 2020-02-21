@@ -1,0 +1,180 @@
+body{
+  background-color:#71B1DC;
+}
+
+
+.circle1 {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: #D3B1DE;
+  position: absolute;
+animation: blinker 1.5s linear infinite;
+top:10%;
+left:50%
+}
+@keyframes blinker {
+  60% {
+    opacity: 0;
+  }
+}
+
+.circle2{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: #D3B1DE;
+  position: absolute;
+  top:15%;
+  left:10%;
+animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  60% {
+    opacity: 0;
+  }
+}
+
+.circle3{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: #D3B1DE;
+  position: absolute;
+  top:30%;
+  left:40%;
+animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  60% {
+    opacity: 0;
+  }
+}
+
+.circle4{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: #D3B1DE;
+  position: absolute;
+  top:35%;
+  left:60%;
+animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  60% {
+    opacity: 0;
+  }
+}
+
+.circle5{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: #D3B1DE;
+  position: absolute;
+  top:40%;
+  left:5%;
+animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  60% {
+    opacity: 0;
+  }
+}
+
+.circle6{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: #D3B1DE;
+  position: absolute;
+  top:45%;
+  left:35%;
+animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  60% {
+    opacity: 0;
+  }
+}
+
+.circle7{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: #D3B1DE;
+  position: absolute;
+  top:51%;
+  left:46%;
+animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  60% {
+    opacity: 0;
+  }
+}
+
+.circle8{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: #D3B1DE;
+  position: absolute;
+  top:57%;
+  left:80%;
+animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  60% {
+    opacity: 0;
+  }
+}
+
+.circle9{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: #D3B1DE;
+  position: absolute;
+  top:63%;
+  left:32%;
+animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  60% {
+    opacity: 0;
+  }
+}
+
+.circle10{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: #D3B1DE;
+  position: absolute;
+  top:69%;
+  left:15%;
+animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  60% {
+    opacity: 0;
+  }
+}
+
+.circle11{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: #D3B1DE;
+  position: absolute;
+  top:75%;
+  left:67%;
+animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  60% {
+    opacity: 0;
+  }
+}

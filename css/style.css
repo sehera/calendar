@@ -1,0 +1,289 @@
+body{
+  background-color: lightsteelblue;
+}
+
+@media (max-width:535px) {
+  h1
+{font-size: 15px;}
+
+}
+
+
+@media (max-width:535px) {
+  div.clock
+{color:white;
+font-size:10px;
+position:absolute;
+top:2%;
+left:20%;}
+}
+
+@media (max-width:535px) {
+  div.day
+{height: 40px;
+  width:40px;
+font-size: 20px;}
+  div#dates {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(2%,2%));
+  grid-template-rows: repeat(auto-fill, minmax(2%, 2%));
+  }
+}
+
+
+@media (max-width:535px) {
+  div.day1
+{height: 40px;
+  width:40px;
+font-size: 20px;}
+  div#dates {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(2%,2%));
+  grid-template-rows: repeat(auto-fill, minmax(2%, 2%));
+  }
+}
+
+@media (max-width:535px) {
+  div.day1::after
+{font-size: 7px;}
+  div#dates {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(2%,2%));
+  grid-template-rows: repeat(auto-fill, minmax(2%, 2%));
+  }
+}
+
+@media (max-width:535px) {
+  div.day14
+{height: 40px;
+  width:40px;
+font-size: 20px;}
+  div#dates {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(2%,2%));
+  grid-template-rows: repeat(auto-fill, minmax(2%, 2%));
+  }
+}
+
+@media (max-width:535px) {
+  div.day14::after
+{font-size: 7px;}
+  div#dates {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(2%,2%));
+  grid-template-rows: repeat(auto-fill, minmax(2%, 2%));
+  }
+}
+
+@media (max-width:535px) {
+  div.day17
+{height: 40px;
+  width:40px;
+font-size: 20px;
+text-align: left;}
+  div#dates {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(2%,2%));
+  grid-template-rows: repeat(auto-fill, minmax(2%, 2%));
+  }
+}
+@media (max-width:535px) {
+  div.day17::after
+{font-size: 7px;}
+  div#dates {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(2%,2%));
+  grid-template-rows: repeat(auto-fill, minmax(2%, 2%));
+  }
+}
+
+@media (min-width:670px) {
+body
+{background-color:wheat;}
+}
+
+@media (min-width:600px) {
+body
+{background-color:wheat;}
+}
+
+@media (min-width:540px) {
+body
+{background-color:wheat;}
+}
+
+@media (min-width:750px) {
+body
+{background-color:lightsteelblue;}
+}
+
+
+
+
+
+h1{
+  font-weight: bold;
+  color:#325DCE;
+  font-family: "optima", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+h1:hover{
+  color: white;
+}
+
+
+#dates {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8%,8%));
+grid-template-rows: repeat(auto-fill, minmax(8%, 8%));
+  grid-gap: 90px;
+  row-gap:85px;
+  height: 500px;
+  position:relative;
+  left:5%;
+  padding:2%;
+  max-width: 100%;
+}
+
+
+.day {
+  background-color: #E7EAF5;
+  border: 3px solid;
+  border-style: none;
+  border-color:blue;
+  border-radius: 50%;
+  transform: rotate(15deg);
+  height: 60px;
+  width:60px;
+  font-family: "akzidenz-grotesk", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.day1 {
+  background-color: #E7EAF5;
+  border: 3px solid;
+  border-radius: 50%;
+  border-style: none;
+  border-color: blue;
+  transform: rotate(15deg);
+  height: 60px;
+  width:60px;
+  font-family: "akzidenz-grotesk", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.day14 {
+  background-color: #E7EAF5;
+  border: 3px solid;
+  border-radius: 50%;
+  border-style: none;
+  border-color: blue;
+  transform: rotate(15deg);
+  height: 60px;
+  width:60px;
+  font-family: "akzidenz-grotesk", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.day17 {
+  background-color: #E7EAF5;
+  border: 3px solid;
+  border-radius: 50%;
+  border-style: none;
+  border-color: blue;
+  transform: rotate(15deg);
+  height: 60px;
+  width:60px;
+  font-family: "akzidenz-grotesk", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#325DCE;
+}
+
+a:link {
+  text-decoration: none;
+  color: #325DCE;
+}
+
+
+.day:hover{
+  background-color:  lightsteelblue;
+  border-color: white;
+  border-width: thick;
+  border-radius: 50%;
+  border-style: outset solid dotted dashed;
+}
+
+.day1:hover{
+  background-color: lightsteelblue;
+  border-color: white;
+  border-width: thick;
+  border-radius: 50%;
+  border-style: outset solid dotted dashed;
+}
+
+.day14:hover{
+  background-color:  lightsteelblue;
+  border-color: white;
+  border-width: thick;
+  border-radius: 50%;
+  border-style: outset solid dotted dashed;
+}
+
+.day17:hover{
+  background-color:  lightsteelblue;
+  border-color: white;
+  border-width: thick;
+  border-radius: 50%;
+  border-style: outset solid dotted dashed;
+}
+
+.day1::after{
+  content:"yaay!";
+  font-size:10px;
+  background-color: white;
+  color:blue;
+  font-weight: 900;
+}
+
+.day14::after{
+  content:"chocolates";
+  font-size:10px;
+  background-color: white;
+  color:blue;
+  font-weight: 900;
+}
+
+.day17::after{
+  content:"free day!";
+  font-size:10px;
+  background-color: white;
+  color:blue;
+  font-weight: 900;
+}
+
+
+/* Code By Webdevtrick ( https://webdevtrick.com ) */
+
+.clock {
+    position: absolute;
+    top:8%;
+    left:3%;
+    color:white;
+    font-size: 19px;
+    font-family: 'akzidenz-grotesk', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
